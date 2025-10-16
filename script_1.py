@@ -1,0 +1,22 @@
+
+# File 1: requirements.txt
+requirements = """streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.15.0
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+geopy>=2.3.0
+folium>=0.14.0
+requests>=2.31.0
+pydantic>=2.0.0
+python-dateutil>=2.8.0
+scipy>=1.10.0
+joblib>=1.3.0
+"""
+
+with open('loan_evaluation_system_complete/requirements.txt', 'w') as f:
+    f.write(requirements)
+
+print("✅ Created requirements.txt")
